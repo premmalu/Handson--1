@@ -1,0 +1,194 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Calibri";
+}
+/* TOTAL LAYOUT */
+layout {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Calibri";
+  box-sizing: border-box;
+}
+/*  HTIS IS NAV BAR */
+nav {
+  background-color: #333333;
+  color: aliceblue;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.title {
+  font-size: 48pt;
+  margin-left: 100px;
+}
+.menu {
+  margin-right: 100px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 16pt;
+  gap: 50px;
+}
+.menu li {
+  list-style: none;
+}
+/* THIS IS SUB NAV */
+.content-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0px;
+}
+.content-menu {
+  display: flex;
+  gap: 18px;
+  font-size: 18pt;
+  color: #333333;
+  margin-left: 100px;
+}
+
+.content-menu li {
+  list-style: none;
+}
+.search {
+  padding: 15px 10px 15px 12px;
+  border: 2px solid #333333;
+  font-size: 12pt;
+  width: fit-content;
+  width: 290px;
+  margin-right: 100px;
+}
+
+/* THIS IS CONNTENT(MASK,SLOGAN,PROS) */
+content {
+  background-color: rgba(211, 211, 211, 0.548);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  height: 430px;
+}
+.mask {
+  width: 230px;
+  height: 240px;
+}
+.slogan {
+  font-size: 58pt;
+  color: #333333;
+}
+.content-pros {
+  color: #333333;
+}
+.content-pros p {
+  font-size: 18pt;
+  margin-bottom: 15px;
+  line-height: 1.3;
+  font-weight: bold;
+}
+
+/* This is Deals of the day */
+.offers {
+  padding: 0px 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.container {
+  display: flex;
+  justify-content: space-around;
+  flex-shrink: 1;
+}
+.head {
+  color: #333333;
+  font-size: 30pt;
+  margin: 20px 0px;
+}
+.head::first-letter {
+  font-size: 48pt;
+}
+.item {
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+  max-width: 170px;
+}
+.item p {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333333;
+  text-align: center;
+}
+.item img {
+  width: 160px;
+  height: 180px;
+}
+/* FASHION VATEGORIES */
+
+.fashion {
+  padding: 0px 100px;
+}
+.flexbox {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 50px;
+}
+.fashion-item {
+  background-color: #dbf3fa;
+  padding: 5px;
+}
+.fashion-item img {
+  width: 220px;
+  height: 240px;
+}
+
+.fashion-item p {
+  font-size: 20pt;
+  font-weight: 550;
+  text-align: center;
+  color: #333333;
+}
+.container1 {
+  display: flex;
+  justify-content: space-between;
+}
+.container2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* BRANDS NAME */
+.brands-name p {
+  color: #333333;
+  font-size: 14pt;
+  margin: 30px 100px;
+  margin-left: 110px;
+  font-weight: bold;
+  line-height: 2.5;
+  word-spacing: +2;
+}
+
+/* FOOTER STYLE */
+footer {
+  color: #ffffff;
+  background-color: #131a22;
+  display: flex;
+  padding:30px 250px 100px 100px;
+  justify-content: space-between;
+}
+.footerbox {
+  padding: 10px 15px;
+  font-size: 16pt;
+}
+.footerbox .first-child {
+  font-size: 18pt;
+  margin-top: 20px;
+  text-transform: uppercase;
+}
+.footerbox li {
+  list-style: none;
+  line-height: 1.5;
+  text-transform: capitalize;
+  font-weight: 100;
+  line-height:2.3;
+}
